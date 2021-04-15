@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+<link rel="Stylesheet" href="DB.css" type="text/css">
+<Script type="text/JavaScript" src="DB.js"></Script>
+</head>
+<body onload="unicode()">
+<Div Id="Ul">
+
+<ul>
+ <ul>
+    <li  class="li" id="textIco" onclick="text();">TXT</li>
+    <ul id="textBox" style="display:none;">
+      <li class="li" onclick="alphabet()">Alphabet</li>
+    </ul>
+ </ul>
+ <ul>
+    <li  class="li" id="htmIco" onclick="htm();">HTM</li>
+    <ul id="htmBox" style="display:none;">
+      <li class="li" onclick="form()">Form</li>
+      <li class="li" onclick="cod()">HTM Cod</li>
+    </ul>
+  </ul>
+  <ul>
+    <li  class="li" id="htmlIco" onclick="html();">HTML</li>
+    <ul id="htmlBox" style="display:none;">
+      <li class="li" onclick="tag()">Теги</li>
+    </ul>
+   </ul>
+  <ul>
+    <li  class="li" id="cssIco" onclick="css();">CSS</li>
+    <ul id="cssBox" style="display:none;">
+      <li class="li" onclick="webFarben();">Web Farben</li>
+      <li class="li" onclick="cursorJs();">Выберите вид курсора</li>
+      <li class="li" onclick="srift()">Шрифты</li>
+    </ul>
+  </ul>
+  <ul>
+    <li  class="li" id="csshtmlIco" onclick="csshtml();">CSS/HTML</li>
+    <ul id="csshtmlBox" style="display:none;">
+      <li class="li" onclick="">Команды CSS/HTML</li>
+    </ul>
+  </ul>
+  <ul>
+    <li  class="li" id="javascriptIco" onclick="javascript();">JavaScript</li>
+    <ul id="javascriptBox" style="display:none;">
+      <li class="li" onclick="">Команды JavaScript</li>
+    </ul>
+  </ul>
+  <ul>
+    <li  class="li" id="javascriptHtmlIco" onclick="javascriptHtml();">JavaScript/HTML</li>
+    <ul id="javascriptHtmlBox" style="display:none;">
+      <li class="li" onclick="CommandsJavaScriptHtml()">Команды JavaScript HTML</li>
+    </ul>
+  </ul>
+  <ul>
+    <li  class="li" id="javascriptCssIco" onclick="javascriptCss();">JavaScript/CSS</li>
+    <ul id="javascriptCssBox" style="display:none;">
+      <li class="li" onclick="CommandsJavaScriptCss()">Команды JavaScript/CSS</li>
+    </ul>
+  </ul>
+  <ul>
+    <li  class="li" id="javascriptCanvasIco" onclick="javascriptCanvas();">JavaScript/Canvas</li>
+    <ul id="javascriptCanvasBox" style="display:none;">
+      <li class="li" onclick="">Команды JavaScript/Canvas</li>
+    </ul>
+  </ul>
+  <ul>
+    <li  class="li" id="svgIco" onclick="svg();">SVG</li>
+    <ul id="svgBox" style="display:none;">
+      <li class="li" onclick="">Команды SVG</li>
+    </ul>
+  </ul>
+  <ul>
+    <li  class="li" id="toolIco" onclick="tool(); return false">Инструменты</li>
+    <ul id="toolBox" style="display:none;">
+      <li class="li">
+      <a onclick="SelectBackgroundColor();return verocultar(this);" href="javascript:void(0)">Выберите цвет фона</a><span id="a">&#9632;</span>
+      </li>
+      <li class="li">
+      <a onclick="FunКechner();return verocultar(this);" href="javascript:void(0)">Калькулятор</a><span id="a">&#9632;</span>
+      </li>
+      <li class="li">
+      <a onclick="draft();return verocultar(this);" href="javascript:void(0)">Черновик</a><span id="a">&#9632;</span>
+      </li>
+      <li class="li">
+      <a onclick="primeNumber();return verocultar(this);" href="javascript:void(0)">Простые числа</a><span id="a">&#9632;</span>
+      </li>
+  </ul>
+</ul>
+<li class="li" onclick="clos()">Закрыть окна</li>
+</ul>
+
+</Div>
+
+<Div Id="Txt"></Div>
+<IFRAME APPLICATION="yes" id="sbc" SRC="SelectBackgroundColor.html"></IFRAME>
+<IFRAME APPLICATION="yes" id="rechner" SRC="Rechner.html"></IFRAME>
+<Iframe Application="yes" id="draft" SRC="draft.txt"></IFRAME>
+<Iframe Application="yes" id="primeNumber" SRC="primeNumber.txt"></IFRAME>
+
+</body>
+</html>
+ 
